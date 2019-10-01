@@ -1,0 +1,6 @@
+@startuml
+DistanceSensor -> raspberryPi: Number
+activate raspberryPi
+raspberryPi -> motor: _MoveSignal
+deactivate raspberryPi
+@enduml
